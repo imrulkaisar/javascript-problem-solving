@@ -29,6 +29,6 @@ function getCurrentDate(format = "mm-dd-yyyy") {
 }
 
 console.log(getCurrentDate());
-console.log(getCurrentDate('mm/dd/yyyy'));
-console.log(getCurrentDate('dd-mm-yyyy'));
-console.log(getCurrentDate('dd/mm/yyyy'));
+console.log(getCurrentDate("mm/dd/yyyy"));
+console.log(getCurrentDate("dd-mm-yyyy"));
+console.log(getCurrentDate("dd/mm/yyyy"));
