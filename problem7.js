@@ -11,6 +11,6 @@
  */
 function guessTheNumber(input = 0) {
   let randomNumber = Math.floor(Math.random() * 10 + 1);
-  return randomNumber === input ? "Good Work" : "Not matched";
+  return randomNumber === input ? "Good Work" : "Not matched. The number was: " + randomNumber;
 }
 console.log(guessTheNumber(7));
